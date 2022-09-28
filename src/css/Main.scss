@@ -1,0 +1,42 @@
+.MainSlider {
+    position: relative;
+    padding: 5rem 0 0;
+
+
+    .itm {
+        position: relative;
+        height: calc(85vh - 10rem);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        &.itm01 {
+            background: url(../../public/assets/images/main_01.png)no-repeat right;
+            background-color: #020024;
+        }
+
+        &.itm02 {
+            background: url(../../public/assets/images/main_02.png)no-repeat right;
+            background-color: #020024;
+        }
+
+        &.itm03 {
+            background-color: rgba(21, 78, 24, 100);
+        }
+
+        .inner {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        // &.itm02 {
+        //     background-image: url(../../public/assets/images/main_m02.jpg);
+        // }
+
+        // &.itm03 {
+        //     background-image: url(../../public/assets/images/main_m03.jpg);
+        // }
+    }
+}
