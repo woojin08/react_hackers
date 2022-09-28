@@ -19,47 +19,54 @@ body {
 }
 
 .Header {
-    .top_service {
+    .top__bar {
         border-bottom: 1px solid $color-gray;
         font-size: $font-small;
         font-weight: 500;
 
         .inner {
             justify-content: flex-end;
-            line-height: 30px;
+            line-height: 15px;
 
             li {
-                border-right: 1px solid $color-gray;
-                padding: 0 10px;
+                // border-right: 1px solid $color-gray;
+                padding: 0 0 0 10px;
             }
+
+
         }
     }
 
     .inner {
         display: flex;
         justify-content: space-between;
-    }
+        padding: 10px 0 10px 0;
 
-    ul {
-        display: flex;
-        // gap: 50px;
-        // line-height: 90px;
-        // font-size: $font-big;
-        // font-weight: 500;
-    }
+        h1 {
+            margin: 0 -40px;
+        }
+
+        ul {
+            display: flex;
+            gap: 40px;
+            line-height: 60px;
+            font-size: $font-midume;
+            font-weight: 500;
+        }
 
 
-    a {
-        position: relative;
-        display: block;
-    }
+        a {
+            position: relative;
+            display: block;
+        }
 
-    &::after {
-        content: "";
-        position: absolute;
-        bottom: 0;
-        left: 50%;
-        width: 0;
-        height: 2px;
+        &::after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            width: 0;
+            height: 2px;
+        }
     }
 }

@@ -7,9 +7,9 @@ const top_banner = [
 ]
 
 const main_content = [
-    { id: 1, content: "실력 있고 당당한 경찰\n국민이 신뢰하는 안심 공동체", desc: "KOREAN NATIONAL POLICE AGENCY" },
-    { id: 2, content: "국민의 신뢰,인권보호,공정한 수사를 위해\n경찰개혁도 함께 합니다.", desc: "Competent and Confident Police, a Safe Community with Public Trust", link: "/", title: "New path created" },
-    { id: 3, content: "가장 안전한 나라\n존경과 사랑받는 경찰", desc: "", link: "/", title: "In my new world" },
+    { id: 1, strong: "경찰전강좌\n검정제+면접까지!", content: "평생 0원 패스", des: "최종 합격 시 수강료 100%환급!\n", link: "/", title: "필기부터 검정제, 면접까지 완벽대비" },
+    { id: 2, strong: "월 3만원대로 전 강좌 무제한 수강!", content: "2023 경찰 합격 패스", des: "필기+검정제+가산점까지 완벽대비!", link: "/", title: "합격까지 무제한 수강" },
+    { id: 3, strong: "다른 곳에서는 흉내내기 힘든 합격기록!", content: "해커스 합격생 10명 중 8명 1년 내 합격", des: "", link: "/", title: "합격생 수 572%증가, 매출액3,000%증가" },
 ]
 
 

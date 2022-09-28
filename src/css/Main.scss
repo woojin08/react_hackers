@@ -1,27 +1,32 @@
+// * {
+//     border: 1px solid #f00;
+// }
+
 .MainSlider {
     position: relative;
-    padding: 5rem 0 0;
+    // padding: 5rem 0 0;
 
 
     .itm {
         position: relative;
-        height: calc(85vh - 10rem);
+        height: calc(80vh - 10rem);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
 
         &.itm01 {
-            background: url(../../public/assets/images/main_01.png)no-repeat right;
+            background: url(../../public/assets/images/bg01.jpg)no-repeat top;
             background-color: #020024;
         }
 
         &.itm02 {
-            background: url(../../public/assets/images/main_02.png)no-repeat right;
+            background: url(../../public/assets/images/bg02.jpg)no-repeat right;
             background-color: #020024;
         }
 
         &.itm03 {
             background-color: rgba(21, 78, 24, 100);
+            background: url(../../public/assets/images/main_03.jpg)no-repeat right;
         }
 
         .inner {
@@ -29,14 +34,70 @@
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
+
+            strong {
+                display: block;
+                margin: 0 0 2rem 0;
+                font-size: 6rem;
+                font-weight: 400;
+                text-transform: uppercase;
+                color: #fff;
+            }
+
+            p {
+                margin: 0 0 2rem 0;
+                font-size: 7.3rem;
+                font-weight: 600;
+                color: #fff;
+            }
+
+            .des {
+                margin: 0 0 0.5rem 0;
+                font-size: 1.8rem;
+                font-weight: 600;
+                text-transform: uppercase;
+                color: #fff;
+            }
+
+            .title {
+                margin: 0 0 1.5rem 0;
+                font-size: 1.8rem;
+                font-weight: 600;
+                text-transform: uppercase;
+                color: #fff;
+            }
+
+            a {
+                text-transform: uppercase;
+                text-decoration: underline;
+            }
         }
+    }
 
-        // &.itm02 {
-        //     background-image: url(../../public/assets/images/main_m02.jpg);
-        // }
+    .slick-dots {
+        position: absolute;
+        bottom: 8rem;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
 
-        // &.itm03 {
-        //     background-image: url(../../public/assets/images/main_m03.jpg);
-        // }
+        li {
+            display: inline-block;
+            margin: 0 0.5rem;
+
+
+            button {
+                width: 4rem;
+                height: 0.4rem;
+                // background: common.$mainColor;
+                font-size: 0;
+                border: none;
+                outline: none;
+            }
+
+            &.slick-active button {
+                background: #369;
+            }
+        }
     }
 }

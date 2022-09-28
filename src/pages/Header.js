@@ -4,12 +4,13 @@ import NavMenu from './NavMenu';
 const Header = () => {
     return (
         <header className='Header'>
-            <div className="top_service">
+            <div className="top__bar">
                 <ul className="inner">
                     <li><a href="#!">로그인</a></li>
                     <li><a href="#!">회원가입</a></li>
                     <li><a href="#!">고객센터<i className="xi-angle-down arrow"></i></a></li>
                     <li><a href="#!">해커스에 바란다</a></li>
+
                 </ul>
             </div>
             <div className="inner">
@@ -18,10 +19,10 @@ const Header = () => {
                         <img src={process.env.PUBLIC_URL + "/assets/images/logo.png"} alt="" />
                     </Link>
                 </h1>
+                <nav>
+                    <NavMenu />
+                </nav>
             </div>
-            <nav>
-                <NavMenu />
-            </nav>
         </header>
     )
 }
