@@ -4,8 +4,11 @@
 
 .MainSlider {
     position: relative;
-    // padding: 5rem 0 0;
 
+    // padding: 5rem 0 0;
+    .slick-track {
+        transition-duration: 0.5ms;
+    }
 
     .itm {
         position: relative;
@@ -15,12 +18,12 @@
         background-size: cover;
 
         &.itm01 {
-            background: url(../../public/assets/images/bg01.jpg)no-repeat top;
+            background: url(../../public/assets/images/main01.jpg)no-repeat top;
             background-color: #020024;
         }
 
         &.itm02 {
-            background: url(../../public/assets/images/bg02.jpg)no-repeat right;
+            background: url(../../public/assets/images/main02.jpg)no-repeat top;
             background-color: #020024;
         }
 

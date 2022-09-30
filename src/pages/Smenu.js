@@ -1,14 +1,14 @@
 import React from 'react'
 
-const smenu = ({ content, num }) => {
+const Smenu = ({ content, num }) => {
     return (
-        <smenu className='smenu'>
+        <smenu className='Smenu'>
             <div className="tit">
-                <strong>{content[num].tit}</strong>&nbsp;&nbsp; / &nbsp;&nbsp;{content[0].tit}
+                <strong>{content[num].tit}</strong>
             </div>
             <div className='bg'>
                 <div className="case">
-                    {
+                    {/* {
                         num === 0
                             ? <div className="tit__log">
                                 <img src={process.env.PUBLIC_URL + '/assets/images/logo.png'} alt="" />
@@ -16,48 +16,75 @@ const smenu = ({ content, num }) => {
                             : <h2>
                                 {content[num].tit}
                             </h2>
-                    }
+                    } */}
 
 
-                    <p>
-                        {content[num].con}
-                    </p>
+                    <h2>
+                        {content[num].con}<br /></h2>
+                    <p>{content[num].cons}</p>
+
                 </div>
             </div>
 
-            <div className="sub__tit">
-                {content[num].tit}
+            <div className="sub__dev">
+                {content[num].dev}
             </div>
             <p className="sub__des">
                 {content[num].des}
             </p>
 
-            <div className="sub__img">
-                <figure>
-                    <img src={process.env.PUBLIC_URL + '/assets/images/main_s011.jpg'} alt="" />
-                </figure>
-                <figure>
-                    <img src={process.env.PUBLIC_URL + '/assets/images/main_s012.jpg'} alt="" />
-                </figure>
-                <figure>
-                    <img src={process.env.PUBLIC_URL + '/assets/images/main_s013.jpg'} alt="" />
-                </figure>
+            <section className="sub">
+                <div className="sub__tit">
+                    <h2>형사법</h2>
+                    <p>입문과정</p>
+                    <strong>김대환 선생님</strong>
+                </div>
+                <ul className="sub_ttt">
+                    <li><a href="">강좌정보</a></li>
+                    <li><a href="">OT</a></li>
+                </ul>
+                <div className="check">
+                    <input type='checkbox' name='check' value='동영상(PC/모바일)' />동영상(PC/모바일)<span>0원</span><br />
+                    <input type='checkbox' name='check' value='다운로드+모바일' />다운로드+모바일<span>0원</span><br />
+                    <input type='checkbox' name='check' value='동영상(PC/모바일)+다운로드' />동영상(PC/모바일)+다운로드<span>0원</span>
+                </div>
+
+
+                <ul className="sub__service">
+                    <li className='mtxt'>김대환 형사법 쌩기초 입문특강</li>
+                    <li className='mtit'>11강(수강기간 20일) · 모바일 · PC</li>
+                    <li className='gy'><span>교재</span>2022해커스경찰 김대환 쌩기초 형사법 [일시품절]</li>
+                </ul>
+            </section>
+            <div className="sub__dev_gibon">
+                {content[num].dev}
             </div>
 
-            <div className="sub__tit">
-                청소 서비스 내용
-            </div>
+            <section className="sub">
+                <div className="sub__tit">
+                    <h2>형사법</h2>
+                    <p>기본이론</p>
+                    <strong>김대환 선생님</strong>
+                </div>
+                <ul className="sub_ttt_gibon">
+                    <li><a href="">강좌정보</a></li>
+                    <li><a href="">OT</a></li>
+                </ul>
+                <div className="check_gibon">
+                    <input type='checkbox' name='check' value='동영상(PC/모바일)' />동영상(PC/모바일)<span>0원</span><br />
+                    <input type='checkbox' name='check' value='다운로드+모바일' />다운로드+모바일<span>0원</span><br />
+                    <input type='checkbox' name='check' value='동영상(PC/모바일)+다운로드' />동영상(PC/모바일)+다운로드<span>0원</span>
+                </div>
 
-            <ul className="sub__service">
-                <li>쓰레기수거후 진공청소</li>
-                <li>베란다 샷시 및 유리창 청소 (건물바깥면 유리창은 제외)</li>
-                <li>베란다 바닥청소</li>
-                <li>찌든데, 먼지, 오염제거</li>
-                <li>실리콘 곰팡이, 거미줄, 스티거 제거 (추가적인 사항 비용발생)</li>
-            </ul>
 
-        </smenu>
+                <ul className="sub__service">
+                    <li className='mtxt'>[2023]김대환 형사법 기본이론</li>
+                    <li className='mtit'>60강(수강기간 120일) · 모바일 · PC</li>
+                    <li className='gy'><span>교재</span>2022해커스경찰 갓대환 형사법1권-형법(2판) [서점 별도 구매]</li>
+                </ul>
+            </section>
+        </smenu >
     )
 }
 
-export default smenu;
+export default Smenu;

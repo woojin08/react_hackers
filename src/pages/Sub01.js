@@ -11,6 +11,7 @@ const Sub01 = ({ content }) => {
                 <div className="inner">{content[num].tit} / {content[0].txt}</div>
             </div>
             <div className="inner sub">
+
                 <Smenu content={content} num={num} />
 
             </div>
