@@ -48,11 +48,19 @@ const Smenu = ({ content, num }) => {
                         <li> <a href="#!">수강후기</a> </li>
                     </ul>
                 </div>
+                <div className="hctc">
+                    <figure className='tc_right'>
+                        <h2>허정 선생님</h2>
+                        <p>이해위주로 암기 최소화!<br /> 문제응용 무한반복으로<br /> 형사법 완전정복</p>
+                        <img src={process.env.PUBLIC_URL + '/assets/images/tcbg03.png'} alt="" />
+                    </figure>
+                    <ul className="board_tc">
+                        <li><a href="#!">OT</a> </li>
+                        <li><a href="#!">강의리스트</a> </li>
+                        <li> <a href="#!">수강후기</a> </li>
+                    </ul>
+                </div>
             </div>
-
-
-
-
         </smenu >
     )
 }

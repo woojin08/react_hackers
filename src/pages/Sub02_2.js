@@ -1,18 +1,16 @@
-import React from 'react';
+import React from 'react'
 import '../css/Subpage.scss'
-import SmenuBnr from './SmenuBnr';
+import SmenuBnr_2 from './SmenuBnr_2';
 
-
-const Sub02 = ({ content }) => {
+const Sub02_2 = ({ content }) => {
     const num = 0;
-
     return (
         <div className='Subpage'>
             <div className="nav__bar">
                 <div className="inner">{content[num].tit} / {content[0].txt}</div>
             </div>
             <div className="bnr">
-                <SmenuBnr content={content} num={num} />
+                <SmenuBnr_2 content={content} num={num} />
 
             </div>
 
@@ -21,4 +19,4 @@ const Sub02 = ({ content }) => {
     )
 }
 
-export default Sub02
+export default Sub02_2

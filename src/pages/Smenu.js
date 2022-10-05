@@ -57,7 +57,7 @@ const Smenu = ({ content, num }) => {
                 </ul>
             </section>
             <div className="sub__dev_gibon">
-                {content[num].dev}
+                {content[num].gib}
             </div>
 
             <section className="sub">
@@ -83,6 +83,7 @@ const Smenu = ({ content, num }) => {
                     <li className='gy'><span>교재</span>2022해커스경찰 갓대환 형사법1권-형법(2판) [서점 별도 구매]</li>
                 </ul>
             </section>
+
         </smenu >
     )
 }
