@@ -1,16 +1,19 @@
-import React from 'react'
-import Article from './Article';
-import Aside from './Aside';
+import React from 'react';
+import Smenu from './Smenu';
 import '../css/Subpage.scss'
+import Book from './Book';
+import Aside from './Aside';
+
 const Sub03 = ({ content }) => {
-    const num = 2;
+    const num = 0;
     return (
         <div className='Subpage'>
+
             <div className="nav__bar">
-                <div className="inner">{content[num].tit} / {content[0].tit}</div>
+                <div className="inner">{content[num].tit}/ {content[0].txt}</div>
             </div>
-            <div className="inner sub">
-                <Article content={content} num={num} />
+            <div className="inner ">
+                <Book content={content} num={num} />
                 <Aside />
             </div>
         </div>

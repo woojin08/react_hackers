@@ -2,10 +2,8 @@ import React from 'react';
 import '../css/Subpage.scss'
 import SmenuBnr from './SmenuBnr';
 
-
 const Sub02 = ({ content }) => {
     const num = 0;
-
     return (
         <div className='Subpage'>
             <div className="nav__bar">
