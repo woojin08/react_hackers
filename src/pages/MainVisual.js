@@ -1,7 +1,15 @@
 import { useEffect, useRef, useState } from 'react';
+import News from './News';
+import Newstw from './Newstw';
+import MainContent from './MainContent';
+
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import { main_content } from '../data/common';
+import Promotion from '../pages/Promotion';
+import Main from './Main';
+
+
 
 
 // const SLIDE = [
@@ -40,8 +48,13 @@ const MainVisual = () => {
                 }
 
             </Slider>
+            <News />
+            <Newstw />
+            <Promotion />
+
         </div>
     )
 }
+
 
 export default MainVisual;

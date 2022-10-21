@@ -22,13 +22,13 @@ const Book = ({ content, num }) => {
                         <div className="book__log">
                             <img src={process.env.PUBLIC_URL + '/assets/images/sub03_1.jpg'} alt="" />
                             <p>
-                                {content[num].con}
+                                {content[num].mtit}
                             </p>
                         </div>
                         <div className="book__log">
                             <img src={process.env.PUBLIC_URL + '/assets/images/sub03_2.jpg'} alt="" />
                             <p>
-                                {content[num].con}
+                                {content[num].mtxt}
                             </p>
                         </div>
                         <div className="book__log">

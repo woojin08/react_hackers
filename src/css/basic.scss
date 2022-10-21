@@ -15,14 +15,19 @@ body {
 
 .inner {
     width: 1200px;
-    margin: 0 auto;
+    margin: 0 0 0 352px;
+    // margin: 0 auto;
 }
 
 .Header {
+
+
     .top__bar {
         border-bottom: 1px solid $color-gray;
         font-size: $font-small;
         font-weight: 500;
+
+
 
         .inner {
             justify-content: flex-end;
@@ -31,6 +36,8 @@ body {
             li {
                 // border-right: 1px solid $color-gray;
                 padding: 0 0 0 10px;
+
+
             }
 
 
@@ -38,29 +45,41 @@ body {
     }
 
     .inner {
+
         display: flex;
         justify-content: space-between;
         padding: 10px 0 10px 0;
 
+
+
         h1 {
             margin: 0 -32px;
         }
+
 
         ul {
             display: flex;
             gap: 40px;
             line-height: 60px;
             font-size: $font-midume;
-            font-weight: 500;
+            font-weight: 600;
+
+
+
         }
 
 
         a {
             position: relative;
             display: block;
+
+
         }
 
+
+
         &::after {
+
             content: "";
             position: absolute;
             bottom: 0;
@@ -68,5 +87,12 @@ body {
             width: 0;
             height: 2px;
         }
+
+        a:hover {
+            color: #005eaf;
+        }
+
     }
+
+
 }

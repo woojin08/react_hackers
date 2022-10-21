@@ -50,9 +50,9 @@ const Smenu = ({ content, num }) => {
                 </div>
                 <div className="hctc">
                     <figure className='tc_right'>
-                        <h2>허정 선생님</h2>
-                        <p>이해위주로 암기 최소화!<br /> 문제응용 무한반복으로<br /> 형사법 완전정복</p>
-                        <img src={process.env.PUBLIC_URL + '/assets/images/tcbg03.png'} alt="" />
+                        <h2>서현 선생님</h2>
+                        <p>기본 핵심만 간추려<br />만점까지 관통하는<br />베이직 행정학</p>
+                        <img src={process.env.PUBLIC_URL + '/assets/images/tcbg10.png'} alt="" />
                     </figure>
                     <ul className="board_tc">
                         <li><a href="#!">OT</a> </li>
@@ -76,9 +76,9 @@ const Smenu = ({ content, num }) => {
                 </div>
                 <div className="hctc">
                     <figure className='tc_right'>
-                        <h2>송광호 선생님</h2>
-                        <p>단계적 설며으로<br />저절로 암기되는<br />송광호 경찰학</p>
-                        <img src={process.env.PUBLIC_URL + '/assets/images/tcbg08.png'} alt="" />
+                        <h2>함수민 선생님</h2>
+                        <p>행정법의<br />새로운 기준<br />스마트 행정법</p>
+                        <img src={process.env.PUBLIC_URL + '/assets/images/tcbg11.png'} alt="" />
                     </figure>
                     <ul className="board_tc">
                         <li><a href="#!">OT</a> </li>
@@ -86,18 +86,7 @@ const Smenu = ({ content, num }) => {
                         <li> <a href="#!">수강후기</a> </li>
                     </ul>
                 </div>
-                <div className="hctc">
-                    <figure className='tc_right'>
-                        <h2>윤동한 선생님</h2>
-                        <p>20년 강의 노하우<br />스토리텔링으로<br />쉽게 푸는 민법총칙</p>
-                        <img src={process.env.PUBLIC_URL + '/assets/images/tcbg09.png'} alt="" />
-                    </figure>
-                    <ul className="board_tc">
-                        <li><a href="#!">OT</a> </li>
-                        <li><a href="#!">강의리스트</a> </li>
-                        <li> <a href="#!">수강후기</a> </li>
-                    </ul>
-                </div>
+
             </div>
         </smenu >
     )

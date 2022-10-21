@@ -1,23 +1,23 @@
-import React from 'react';
-import Article from './Article';
-import Aside from './Aside';
+import React from 'react'
 import '../css/Subpage.scss'
+import SmenuBnr_3 from './SmenuBnr_3';
 
-
-const Sub04 = ({ content }) => {
+const Sub02_3 = ({ content }) => {
     const num = 0;
     return (
         <div className='Subpage'>
             <div className="nav__bar">
                 <div className="inner">{content[num].tit} / {content[0].txt}</div>
             </div>
-            <div className="inner sub">
-                <Article content={content} num={num} />
-                <Aside />
+            <div className="bnr">
+
+                <SmenuBnr_3 content={content} num={num} />
 
             </div>
+
         </div>
+
     )
 }
 
-export default Sub04
+export default Sub02_3
