@@ -51,7 +51,6 @@ const MainVisual = () => {
             <News />
             <Newstw />
             <Promotion />
-
         </div>
     )
 }

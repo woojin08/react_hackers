@@ -2,9 +2,6 @@ import React, { useEffect, useRef } from 'react'
 import { useNavigate } from 'react-router-dom';
 
 const Write = ({ input, setInput, boardList, setBoardList, id }) => {
-
-
-
     return (
         <div className='BoardList'>
             <table className='BoardTable'>

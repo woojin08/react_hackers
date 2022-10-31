@@ -8,17 +8,6 @@ const Smenu = ({ content, num }) => {
             </div>
             <div className='bg'>
                 <div className="case">
-                    {/* {
-                        num === 0
-                            ? <div className="tit__log">
-                                <img src={process.env.PUBLIC_URL + '/assets/images/logo.png'} alt="" />
-                            </div>
-                            : <h2>
-                                {content[num].tit}
-                            </h2>
-                    } */}
-
-
                     <h2>
                         {content[num].con}<br /></h2>
                     <p>{content[num].cons}</p>
@@ -75,15 +64,12 @@ const Smenu = ({ content, num }) => {
                     <input type='checkbox' name='check' value='다운로드+모바일' />다운로드+모바일<span>0원</span><br />
                     <input type='checkbox' name='check' value='동영상(PC/모바일)+다운로드' />동영상(PC/모바일)+다운로드<span>0원</span>
                 </div>
-
-
                 <ul className="sub__service">
                     <li className='mtxt'>[2023]김대환 형사법 기본이론</li>
                     <li className='mtit'>60강(수강기간 120일) · 모바일 · PC</li>
                     <li className='gy'><span>교재</span>2022해커스경찰 갓대환 형사법1권-형법(2판) [서점 별도 구매]</li>
                 </ul>
             </section>
-
         </smenu >
     )
 }

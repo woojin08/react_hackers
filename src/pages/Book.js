@@ -1,8 +1,6 @@
 import React from 'react'
-import { useEffect, useRef, useState } from 'react';
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
-import { main_content } from '../data/common';
 
 const Book = ({ content, num }) => {
 
@@ -37,10 +35,7 @@ const Book = ({ content, num }) => {
                                 {content[num].con}
                             </p>
                         </div>
-
                     </Slider >
-
-
                 </div>
             </div>
 

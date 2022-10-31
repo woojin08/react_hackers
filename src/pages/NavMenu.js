@@ -6,7 +6,7 @@ const NAVLINK = [
     { content: "선생님", link: "/sub02" },
     { content: "합격수기", link: "/sub03" },
     { content: "이벤트", link: "/sub04" },
-    { content: "수험정보", link: "/SUB05" },
+    { content: "수험정보", link: "/Sub05" },
 
 ]
 const NavMenu = () => {

@@ -1,9 +1,4 @@
-// * {
-//     border: 1px solid #f00;
-// }
-
 .Subpage {
-
     .sub {
         width: 1200px;
         display: flex;
@@ -13,7 +8,6 @@
             flex: 1;
             padding: 50px 50px 200px 0;
         }
-
     }
 
     .aside {
@@ -28,7 +22,6 @@
         border-top: 1px solid #ddd;
         border-bottom: 1px solid #ddd;
         background: #f4f4f4;
-        // text-align: right;
         line-height: 40px;
     }
 
@@ -84,7 +77,6 @@
     .sub__dev {
         font-size: 20px;
         font-weight: 600;
-        // margin: 20px 0 -20px 0;
         padding-top: 20px;
 
         &::after {
@@ -100,7 +92,6 @@
     .sub__dev_gibon {
         font-size: 20px;
         font-weight: 600;
-        // margin: 20px 0 -20px 0;
         padding-top: 20px;
         border-top: 1px solid #ddd;
 
@@ -140,7 +131,6 @@
     .sub_ttt {
         position: absolute;
         display: inline-block;
-        // margin-left: 600px;
         top: 43%;
         right: 24%;
 
@@ -153,7 +143,6 @@
             margin-bottom: 5px;
             font-size: 15px;
             font-weight: 600;
-            // cursor: pointer;
         }
 
     }
@@ -161,7 +150,6 @@
     .sub_ttt_gibon {
         position: absolute;
         display: inline-block;
-        // margin-left: 600px;
         top: 77%;
         right: 24%;
 
@@ -180,8 +168,6 @@
     }
 
     .check {
-        // display: block;
-        // padding: 10px;
         position: absolute;
         line-height: 1.5;
         top: 43%;
@@ -215,17 +201,6 @@
             position: relative;
             display: block;
             line-height: 30px;
-            // border-bottom: 1px solid #ddd;
-
-            // &::before {
-            //     content: "";
-            //     position: absolute;
-            //     top: 13px;
-            //     left: 0;
-            //     width: 3px;
-            //     height: 3px;
-            //     background: #0a96ba;
-            // }
         }
 
         .mtxt {
@@ -246,16 +221,12 @@
             width: 1053px;
             border-top: 1px solid #ddd;
 
-
             span {
                 font-weight: 700;
                 padding-right: 10px;
             }
         }
-
     }
-
-
 }
 
 
@@ -383,7 +354,6 @@
     a:hover {
         color: #1da5fd;
     }
-
 }
 
 //Sub03
@@ -400,7 +370,6 @@
             padding-top: 20px;
             font-size: 24px;
             font-weight: 600;
-
         }
     }
 
@@ -411,7 +380,6 @@
         background: #fff;
         padding: 10px 0;
         margin: 0 365px;
-
 
         .bkcase {
             padding: 0 0 0 20px;
@@ -424,11 +392,8 @@
                 padding: 10px 0 0 215px;
                 font-size: 19px;
                 font-weight: 700;
-
             }
-
         }
-
 
         .slick-dots {
             position: absolute;
@@ -454,7 +419,6 @@
                     height: 10px;
                     margin: 0 5px;
                     z-index: 999;
-
                 }
 
                 &.slick-active button {
@@ -528,10 +492,7 @@
                 top: 20px
             }
         }
-
-
     }
-
 }
 
 .Free {
@@ -571,16 +532,6 @@
             font-size: 15px;
             font-weight: 500;
 
-
-            // &::before {
-            //     content: "";
-            //     position: absolute;
-            //     top: 33px;
-            //     left: 0;
-            //     width: 3px;
-            //     height: 3px;
-            //     background: #0a96ba;
-            // }
             figure {
                 position: relative;
                 display: contents;
@@ -602,10 +553,7 @@
                 right: 200px;
             }
         }
-
-
     }
-
 }
 
 // study
@@ -699,8 +647,6 @@
                 background: #0a96ba;
             }
         }
-
-
     }
 
 }
@@ -732,9 +678,7 @@
                 border-radius: 10px;
                 border-bottom: 1px solid transparent;
             }
-
         }
-
     }
 }
 
@@ -780,9 +724,7 @@
         background: #f4f4f4;
         text-align: right;
         line-height: 40px;
-
     }
-
 }
 
 .BoardList {
@@ -817,7 +759,6 @@
                     background: #f8f9fa;
                 }
             }
-
         }
 
         td {

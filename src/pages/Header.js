@@ -10,7 +10,6 @@ const Header = () => {
                     <li><a href="#!">회원가입</a></li>
                     <li><a href="#!">고객센터<i className="xi-angle-down arrow"></i></a></li>
                     <li><a href="#!">해커스에 바란다</a></li>
-
                 </ul>
             </div>
             <div className="inner">

@@ -1,11 +1,6 @@
-// * {
-//     border: 1px solid #f00;
-// }
-
 .MainSlider {
     position: relative;
 
-    // padding: 5rem 0 0;
     .slick-track {
         transition-duration: 0.5ms;
     }
@@ -92,7 +87,6 @@
             button {
                 width: 4rem;
                 height: 0.4rem;
-                // background: common.$mainColor;
                 font-size: 0;
                 border: none;
                 outline: none;
@@ -298,33 +292,6 @@
         width: 300px;
     }
 
-    // .Promotion .des li:first-child::after {
-    //     content: "";
-    //     position: absolute;
-    //     top: 15%;
-    //     left: calc(50% - 5px);
-    //     width: 4px;
-    //     height: 15px;
-    //     background: #F5F2ED;
-    //     transition: 0.3s;
-    // }
-
-    // .Promotion .des li:first-child.on::after {
-    //     height: 30px;
-    //     background: #005eaf;
-    // }
-
-    // .Promotion .des li:last-child::after {
-    //     content: "";
-    //     position: absolute;
-    //     top: 15%;
-    //     left: calc(50% + 5px);
-    //     width: 4px;
-    //     height: 15px;
-    //     background: #005eaf;
-    //     transition: 0.3s;
-    // }
-
     .Promotion .des li:last-child.on::after {
         height: 30px;
         background: #005eaf;
@@ -360,7 +327,6 @@
 
 // Maincontent
 .MainContent {
-    // padding: 150px 0 100px 0;
     background: linear-gradient(to top, #D9E5FF 40%, transparent 50%);
 
     .inner {
@@ -374,7 +340,6 @@
 
         figure {
             margin: 0 0 30px 0;
-            // border-radius: 50px 0;
             overflow: hidden;
         }
 

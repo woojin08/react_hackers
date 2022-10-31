@@ -3,7 +3,6 @@ import YouTube from 'react-youtube';
 
 const UURL = [
     { id: 1, url: "_0CXEqkwKG8", title: "#경찰공무원시험 #경찰공무원 ", des: "2023년 경찰공무원 합격이 목표라면? l 해커스경찰 초시생가이드 필수시청!" },
-    // { id: 2, url: "5eRTltsWp2s", title: "#경찰공무원시험  #경찰시험", des: "2023 경찰공무원 시험대비 해커스경찰 형사법 김대환 커리큘럼" },
 ]
 
 const Promotion = () => {
@@ -17,17 +16,13 @@ const Promotion = () => {
         height: '100%',
         width: '100%',
         playerVars: {
-            // https://developers.google.com/youtube/player_parameters
             autoplay: auto,
             loop: 1,
             controls: 0,
             showinfo: 0,
             rel: 0,
-            // autohide: 1,
             playsinline: 1,
             mute: 1,
-            //playlist: 'raw3Nu0_mBQ',
-            //paused: 1,
         },
 
     };

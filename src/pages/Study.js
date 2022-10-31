@@ -11,7 +11,6 @@ const Study = ({ content, num }) => {
                     {
                         num === 0
                             ? <div className="tit__log">
-                                {/* <img src={process.env.PUBLIC_URL + '/assets/images/study01.jpg'} alt="" /> */}
                             </div>
                             : <h2>
                                 {content[num].tit}
@@ -31,12 +30,6 @@ const Study = ({ content, num }) => {
             <div className="sub__img">
                 <figure>
                     <img src={process.env.PUBLIC_URL + '/assets/images/study01.jpg'} alt="" />
-                </figure>
-                <figure>
-                    <img src={process.env.PUBLIC_URL + '/assets/images/main_s012.jpg'} alt="" />
-                </figure>
-                <figure>
-                    <img src={process.env.PUBLIC_URL + '/assets/images/main_s013.jpg'} alt="" />
                 </figure>
             </div>
 

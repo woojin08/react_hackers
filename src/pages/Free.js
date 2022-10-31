@@ -8,8 +8,6 @@ const Free = ({ content, num }) => {
                 {content[num].con}
             </div>
 
-
-
             <div className="sub__tit">
                 진행중인 이벤트
             </div>

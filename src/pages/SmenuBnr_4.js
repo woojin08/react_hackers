@@ -16,12 +16,6 @@ const Smenu = ({ content, num }) => {
 
                 </div>
             </div>
-            {/* <div className="sub__tit">
-                {content[num].tit}
-            </div>
-            <p className="sub__des">
-                {content[num].tit}
-            </p> */}
             <TcMainMenu />
             <div className="tc__img inner">
                 <div className="hctc">
@@ -74,8 +68,6 @@ const Smenu = ({ content, num }) => {
                         <li> <a href="#!">수강후기</a> </li>
                     </ul>
                 </div>
-
-
             </div>
         </smenu >
     )
