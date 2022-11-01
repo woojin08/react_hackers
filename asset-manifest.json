@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react_hackers/static/css/main.fa691053.css",
-    "main.js": "/react_hackers/static/js/main.22caca4c.js",
+    "main.css": "/react_hackers/static/css/main.97480ad9.css",
+    "main.js": "/react_hackers/static/js/main.0f4f1a6a.js",
     "static/media/main02.jpg": "/react_hackers/static/media/main02.61d92a38ac585394a920.jpg",
     "static/media/main_03.jpg": "/react_hackers/static/media/main_03.100b28c3a3b6dc6ed08f.jpg",
     "static/media/main01.jpg": "/react_hackers/static/media/main01.596d71a6df184a31a94f.jpg",
@@ -9,11 +9,11 @@
     "static/media/study03.jpg": "/react_hackers/static/media/study03.874c30f3e07fb285d23c.jpg",
     "static/media/sub02.jpg": "/react_hackers/static/media/sub02.5952523d1eb550858965.jpg",
     "index.html": "/react_hackers/index.html",
-    "main.fa691053.css.map": "/react_hackers/static/css/main.fa691053.css.map",
-    "main.22caca4c.js.map": "/react_hackers/static/js/main.22caca4c.js.map"
+    "main.97480ad9.css.map": "/react_hackers/static/css/main.97480ad9.css.map",
+    "main.0f4f1a6a.js.map": "/react_hackers/static/js/main.0f4f1a6a.js.map"
   },
   "entrypoints": [
-    "static/css/main.fa691053.css",
-    "static/js/main.22caca4c.js"
+    "static/css/main.97480ad9.css",
+    "static/js/main.0f4f1a6a.js"
   ]
 }
