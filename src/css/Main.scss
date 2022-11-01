@@ -394,21 +394,48 @@
 }
 
 .csc {
-
     position: relative;
     padding: 100px 0;
 
     h2 {
-        font-size: 35px;
-        font-weight: 700;
+        font-size: 30px;
+        font-weight: 600;
         margin: 0 0 20px 0;
         text-align: center;
     }
 
     p {
-        font-size: 15px;
+        font-size: 18px;
+        font-weight: 500;
         margin: 0 0 40px 0;
         text-align: center;
     }
 
+    span {
+        font-size: 35px;
+        font-weight: 700;
+        margin: 0 0 20px 0;
+        text-align: center;
+    }
+}
+
+.ToTop {
+    position: fixed;
+    bottom: 120px;
+    right: 60px;
+    padding: 10px;
+    background: #444;
+    color: #fff;
+    font-size: 20px;
+    z-index: 999;
+    visibility: hidden;
+    opacity: 0;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.5s;
+
+    &.on {
+        visibility: visible;
+        opacity: 1;
+    }
 }
